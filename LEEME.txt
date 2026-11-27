@@ -1,0 +1,23 @@
+ABY NAILS & LASHES — Landing page
+==================================
+
+Archivos:
+  index.html   -> la página
+  styles.css   -> todos los estilos (colores en :root, arriba del archivo)
+  script.js    -> filtros de galería, formulario de cita y número de WhatsApp
+  favicon.svg  -> icono de la pestaña
+  img/         -> fotos en .webp (ligeras) y .jpg (respaldo para navegadores viejos)
+
+CAMBIAR EL NÚMERO DE WHATSAPP
+  1. script.js, línea:  var PHONE = '525548588680';
+  2. index.html: busca y reemplaza 5548588680 (respaldo por si el JS no carga)
+     y el texto visible "55 4858 8680".
+
+PENDIENTES POR LLENAR (busca los corchetes en index.html)
+  [PRECIO]  [DIRECCIÓN DEL ESTUDIO]  [DÍAS Y HORARIO DE ATENCIÓN]
+
+SUBIRLO
+  Sube la carpeta completa tal cual (Netlify, Vercel, Hostinger, GitHub Pages,
+  cPanel...). No necesita servidor ni base de datos.
+  Para la vista previa al compartir en WhatsApp, cambia en index.html
+  og:image por la URL completa, ej. https://tudominio.com/img/unas-03.jpg
